@@ -115,3 +115,21 @@ coroutine.wrap(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/G95/main/G95.lua"))()
     end
 end)()
+
+-- Mangle
+coroutine.wrap(function()
+    while true do
+        wait(math.random(790,800))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/M/main/M.lua"))()
+    end
+end)()
+
+-- Deeper
+coroutine.wrap(function()
+    while true do
+        wait(699)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/D/main/D.lua"))()
+    end
+end)()

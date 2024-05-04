@@ -142,3 +142,12 @@ coroutine.wrap(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/A200/main/200.lua"))()
     end
 end)()
+
+-- Traumatized
+coroutine.wrap(function()
+    while true do
+        wait(250)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Trumanet/main/Traumatized.lua"))()
+    end
+end)()

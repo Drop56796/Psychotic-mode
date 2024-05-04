@@ -133,3 +133,12 @@ coroutine.wrap(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/D/main/D.lua"))()
     end
 end)()
+
+-- A200
+coroutine.wrap(function()
+    while true do
+        wait(100)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/A200/main/200.lua"))()
+    end
+end)()

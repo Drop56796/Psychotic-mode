@@ -1,10 +1,10 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Psychotic Mode V2",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Psychotic Mode V3",true)
 wait(5)
 
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Darkness and other person",true)
 wait(5)
 
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("F**k You Mother",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("You died...",true)
 wait(5)
 
 ---====== Load achievement giver ======---
@@ -12,10 +12,10 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
 
 ---====== Display achievement ======---
 achievementGiver({
-    Title = "Psychotic mode V2 is exeute",
+    Title = "Psychotic mode V3 is exeute",
     Desc = "What are you doing?",
     Reason = "Good luck. Bad Hacker...",
-    Image = "rbxassetid://13905664807"
+    Image = "rbxassetid://17380327265"
 })
 -- light
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Flight/main/Light.lua"))()
@@ -102,5 +102,14 @@ coroutine.wrap(function()
         wait(250)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Trumanet/main/Traumatized.lua"))()
+    end
+end)()
+
+-- A666
+coroutine.wrap(function()
+    while true do
+        wait(430)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/A666/main/A666.lua"))()
     end
 end)()

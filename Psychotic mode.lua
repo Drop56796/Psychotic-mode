@@ -4,7 +4,7 @@ wait(5)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Darkness and other person",true)
 wait(5)
 
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("F**k You Mother",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("...",true)
 wait(5)
 
 ---====== Load achievement giver ======---
@@ -108,7 +108,7 @@ end)()
 -- A666
 coroutine.wrap(function()
     while true do
-        wait((700)
+        wait(700)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/A666/main/A666.lua"))()
     end

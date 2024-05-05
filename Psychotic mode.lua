@@ -17,12 +17,11 @@ achievementGiver({
     Reason = "Good luck. Bad Hacker...",
     Image = "rbxassetid://13905664807"
 })
--- light
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Flight/main/Light.lua"))()
 
--- Custom Door Sounds
+-- Custom Door Sounds and Floor2 Candle
 loadstring(game:HttpGet("https://pastebin.com/raw/iAhTGdBh"))()
 loadstring(game:HttpGet("https://pastebin.com/raw/6brG9uma"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Floor-2-candle-By-icherryKardess-/The-Floor-2-candle-(By-icherryKardess)/Floor2%20candle%20(The%20candle%20by%20icherrykardess).lua"))()
 
 -- Super A60
 coroutine.wrap(function()

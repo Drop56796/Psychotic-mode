@@ -1,4 +1,4 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Psychotic Mode V2",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Psychotic Mode V3",true)
 wait(5)
 
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Darkness and other person",true)
@@ -12,7 +12,7 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
 
 ---====== Display achievement ======---
 achievementGiver({
-    Title = "Psychotic mode V2 is exeute",
+    Title = "Psychotic mode V3 is exeute",
     Desc = "What are you doing?",
     Reason = "Good luck. Bad Hacker...",
     Image = "rbxassetid://13905664807"
@@ -102,5 +102,14 @@ coroutine.wrap(function()
         wait(250)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Trumanet/main/Traumatizemd.lua"))()
+    end
+end)()
+
+-- A666
+coroutine.wrap(function()
+    while true do
+        wait((700)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/A666/main/A666.lua"))()
     end
 end)()

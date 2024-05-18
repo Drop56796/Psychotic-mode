@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/monste%20and%20Door%20Sounds.lua"))()
+
 local cue2 = Instance.new("Sound")
 	cue2.Parent = game.Workspace
 	cue2.Name = "loading"

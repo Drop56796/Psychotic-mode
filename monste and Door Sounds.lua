@@ -1,5 +1,5 @@
 -- Custom Door Sounds
-loadstring(game:HttpGet("https://pastebin.com/raw/iAhTGdBh"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Doors-Sound/main/Doors.lua"))()
 loadstring(game:HttpGet("https://pastebin.com/raw/6brG9uma"))()
 
 -- Super A60

@@ -8,13 +8,13 @@ local cue2 = Instance.new("Sound")
 	cue2.PlaybackSpeed =0.25
 	cue2:Play()
 
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Crazy Mode",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Psychotic Mode",true)
 wait(3.5)
 
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Darkness and other person",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Darkness and catminety",true)
 wait(3.5)
 
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("...",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good luck Hacker",true)
 wait(3.5)
 
 ---====== Load achievement giver ======---
@@ -27,3 +27,5 @@ achievementGiver({
     Reason = "Crazy mode is exeute",
     Image = "rbxassetid://12583460254"
 })
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Sound/main/Sound.lua"))()

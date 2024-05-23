@@ -29,3 +29,5 @@ achievementGiver({
 })
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Sound/main/Sound.lua"))()
+
+game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "The Script is execute Made by Darkness / catminety", Color = Color3.fromRGB( 0,0,0 ), Font = nothingactually, FontSize = Enum.FontSize.Size24 } )

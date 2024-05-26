@@ -68,7 +68,7 @@ end)()
 -- A200
 coroutine.wrap(function()
     while true do
-        wait(100)
+        wait(285)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/A200/main/200.lua"))()
     end
@@ -77,7 +77,7 @@ end)()
 -- Traumatized
 coroutine.wrap(function()
     while true do
-        wait(250)
+        wait(500)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Trumanet/main/Traumatizemd.lua"))()
     end

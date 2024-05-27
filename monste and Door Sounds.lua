@@ -91,3 +91,12 @@ coroutine.wrap(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/A666/main/A666.lua"))()
     end
 end)()
+
+-- Him
+coroutine.wrap(function()
+    while true do
+        wait(math.random(45,100))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Clock/main/Him.lua"))()
+    end
+end)()

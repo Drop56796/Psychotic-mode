@@ -77,7 +77,7 @@ end)()
 -- Traumatized
 coroutine.wrap(function()
     while true do
-        wait(500)
+        wait(800)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Trumanet/main/Traumatizemd.lua"))()
     end

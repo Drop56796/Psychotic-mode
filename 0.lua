@@ -1,14 +1,14 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/Speed.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/monste%20and%20Door%20Sounds.lua"))()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/monste%20and%20Door%20Sounds.lua"))()
 local cue2 = Instance.new("Sound")
 	cue2.Parent = game.Workspace
-	cue2.Name = "loading"
-	cue2.SoundId = "rbxassetid://6657340839"
-	cue2.Volume = 99999999999
-	cue2.PlaybackSpeed =0.25
+	cue2.Name = "Sound"
+	cue2.SoundId = "rbxasset://rSCroarove.mp3"
+	cue2.Volume = 2
+	cue2.PlaybackSpeed = 1
 	cue2:Play()
-
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Psychotic Mode",true)
 wait(3.5)
 
@@ -30,5 +30,4 @@ achievementGiver({
 })
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Sound/main/Sound.lua"))()
-
-game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "The Script is execute Made by Darkness / catminety", Color = Color3.fromRGB( 0,0,0 ), Font = nothingactually, FontSize = Enum.FontSize.Size24 } )
+game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "script in the hotel. The Mode made by Darkness / catminetry / other person", Color = Color3.fromRGB( 0,255,0 ), Font = nothingactually, FontSize = Enum.FontSize.Size24 } )

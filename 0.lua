@@ -8,7 +8,6 @@ local cue2 = Instance.new("Sound")
 	cue2.Volume = 2
 	cue2.PlaybackSpeed = 1
 	cue2:Play()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/monste%20and%20Door%20Sounds.lua"))()
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Psychotic Mode",true)
 wait(3.5)
 

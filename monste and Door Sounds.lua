@@ -88,7 +88,7 @@ coroutine.wrap(function()
     end
 end)()
 
--- Traumatized
+-- Decoratebance
 coroutine.wrap(function()
     while true do
         wait(math.random(70,75)

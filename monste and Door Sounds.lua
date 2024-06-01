@@ -92,6 +92,16 @@ coroutine.wrap(function()
     end
 end)()
 
+-- Traumatized
+coroutine.wrap(function()
+    while true do
+        wait(math.random(70,75)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Decoratebance-spawn/main/spawn.lua"))()
+    end
+end)()
+
+
 -- Him
 coroutine.wrap(function()
     while true do

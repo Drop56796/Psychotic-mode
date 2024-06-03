@@ -106,3 +106,12 @@ coroutine.wrap(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Clock/main/Him.lua"))()
     end
 end)()
+
+-- Insanity Rush
+coroutine.wrap(function()
+    while true do
+        wait(math.random(250,399))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Insanity-Rush/main/Spawner.lua"))()
+    end
+end)()

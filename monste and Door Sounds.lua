@@ -52,15 +52,6 @@ coroutine.wrap(function()
     end
 end)()
 
--- Deeper
-coroutine.wrap(function()
-    while true do
-        wait(699)
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/D/main/D.lua"))()
-    end
-end)()
-
 -- A200
 coroutine.wrap(function()
     while true do
@@ -79,19 +70,11 @@ coroutine.wrap(function()
     end
 end)()
 
--- A666
-coroutine.wrap(function()
-    while true do
-        wait(700)
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/A666/main/A666.lua"))()
-    end
-end)()
 
 -- Decoratebance
 coroutine.wrap(function()
     while true do
-        wait(math.random(70,75))
+        wait(math.random(100,200))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Decoratebance-spawn/main/spawn.lua"))()
     end
@@ -110,8 +93,35 @@ end)()
 -- Insanity Rush
 coroutine.wrap(function()
     while true do
-        wait(math.random(250,399))
+        wait(math.random(650,100))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Insanity-Rush/main/Spawner.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Mayhem-mode-enity/main/Manic%20Rush.lua"))()
+    end
+end)()
+
+-- Mareat
+coroutine.wrap(function()
+    while true do
+        wait(math.random(1000,1100))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoangnguyen72628/MayhemMode/main/ObfuscatedEntities/Threat-obfuscated.lua"))()
+    end
+end)()
+
+-- Hard Obsession
+coroutine.wrap(function()
+    while true do
+        wait(math.random(800,900))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Mayhem-mode-enity/main/Hard%20Obsession.lua"))()
+    end
+end)()
+
+-- Twiser
+coroutine.wrap(function()
+    while true do
+        wait(math.random(900,1000))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Mayhem-mode-enity/main/enity.lua"))()
     end
 end)()

@@ -93,7 +93,7 @@ end)()
 -- Insanity Rush
 coroutine.wrap(function()
     while true do
-        wait(math.random(650,100))
+        wait(math.random(950,1000))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Mayhem-mode-enity/main/Manic%20Rush.lua"))()
     end
